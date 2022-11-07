@@ -80,4 +80,5 @@ print("genes set ready")
 
 res=ssgsea(data,gene_set,norm = F,scale = T)
 print(res)
+heatmap(t(mat))
 
